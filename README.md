@@ -1,7 +1,7 @@
 # zmq
 Lightweight broker using ZMQ
 
-Instructions
+Set up
 1. Start the Broker 
 python broker.py
 
@@ -15,3 +15,10 @@ python testenbodeb.py
 python logger.py
 
 in any particular order.
+
+Send a message
+zmqSender("QOSQ").tx("qoslevel=%d" % level)
+
+Receive a message
+b=zmqsub("QOSQ")
+
