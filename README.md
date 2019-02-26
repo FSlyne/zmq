@@ -17,8 +17,8 @@ python logger.py
 in any particular order.
 
 Send a message
-zmqSender("QOSQ").tx("qoslevel=%d" % level)
+1. zmqSender("QOSQ").tx("qoslevel=%d" % level)
 
 Receive a message
-b=zmqsub("QOSQ")
+2. b=zmqsub("QOSQ")
 
