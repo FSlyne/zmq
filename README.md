@@ -1,5 +1,5 @@
 # zmq
-Lightweight broker using ZMQ
+Lightweight broker using ZMQ, allowing messaging across the network
 
 Set up
 1. Start the Broker 
